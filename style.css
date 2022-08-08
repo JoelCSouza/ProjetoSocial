@@ -38,6 +38,29 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    height: 470px;
-    width: 266px;
+    height: 472px;
+    width: 268px;
+}
+
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+img {
+    height: 9vh;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.452);
 }
